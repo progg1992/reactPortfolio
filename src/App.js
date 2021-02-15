@@ -1,6 +1,7 @@
 import './App.scss';
 
 import NavBar from './Components/NavBar';
+import HomePage from './'
 import {Switch, Route} from 'react-router-dom';
 import { useState } from 'react';
 
@@ -25,6 +26,7 @@ function App() {
           <div className="content">
             <Switch>
               <Route path="/" exact>
+                <HomePage />
               </Route>
               <Route path="/about" exact>
               </Route>
