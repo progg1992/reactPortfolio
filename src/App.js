@@ -1,7 +1,13 @@
+import React from 'react'
 import './App.scss';
-
+// Components
 import NavBar from './Components/NavBar';
-import HomePage from './'
+
+// Pages
+import HomePage from './Pages/HomePage';
+import AboutPage from './Pages/AboutPage';
+
+// Routing and Hooks
 import {Switch, Route} from 'react-router-dom';
 import { useState } from 'react';
 
@@ -29,6 +35,7 @@ function App() {
                 <HomePage />
               </Route>
               <Route path="/about" exact>
+                <AboutPage />
               </Route>
               <Route path="/portfolios" exact>
               </Route>
