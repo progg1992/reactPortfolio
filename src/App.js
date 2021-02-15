@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar';
 // Pages
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
+import ContactPage  from './Pages/ContactPage'
 
 // Routing and Hooks
 import {Switch, Route} from 'react-router-dom';
@@ -37,9 +38,10 @@ function App() {
               <Route path="/about" exact>
                 <AboutPage />
               </Route>
-              <Route path="/portfolios" exact>
+              <Route path="/portfolio" exact>
               </Route>
               <Route path="/contact" exact>
+                <ContactPage />
               </Route>
             </Switch>
           </div>
