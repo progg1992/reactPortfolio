@@ -2,7 +2,7 @@ import React from 'react';
 import Categories from '../Components/Categories';
 import MenuItems from '../Components/MenuItems';
 import Title from '../Components/Title';
-import portfolios from '../Components/allportfolio';
+import portfolio from '../Components/allPortfolio';
 import { useState } from 'react';
 
 const allCategories = ['All', ...new Set(portfolio.map(item => item.category))];

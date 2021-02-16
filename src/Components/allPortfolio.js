@@ -1,6 +1,6 @@
 import port1 from '../Images/portImages/tech.it.png';
 import port2 from '../Images/portImages/git.interview.png';
-import port3 from '../images/portImages/passwordGenerator.png';
+import port3 from '../Images/portImages/passwordGenerator.png';
 
 const portfolio = [
     {
