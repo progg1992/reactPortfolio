@@ -6,7 +6,8 @@ import NavBar from './Components/NavBar';
 // Pages
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
-import ContactPage  from './Pages/ContactPage'
+import ContactPage  from './Pages/ContactPage';
+import PortfolioPage from './Pages/PortfolioPage';
 
 // Routing and Hooks
 import {Switch, Route} from 'react-router-dom';
@@ -39,6 +40,7 @@ function App() {
                 <AboutPage />
               </Route>
               <Route path="/portfolio" exact>
+                <PortfolioPage />
               </Route>
               <Route path="/contact" exact>
                 <ContactPage />
