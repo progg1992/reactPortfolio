@@ -1,7 +1,6 @@
 import React from 'react';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link} from 'react-router-dom';
 
 function HomePage() {
     return (
@@ -19,9 +18,9 @@ function HomePage() {
                 </p>
                 <div className="icons">
                     
-                    <Link to="https://github.com/progg1992" className="icon-holder">
+                    <a href="https://github.com/progg1992" target="_blank" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
-                    </Link>
+                    </a>
                 </div>
             </header>
         </div>
