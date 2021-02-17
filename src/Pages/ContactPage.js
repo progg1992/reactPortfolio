@@ -8,12 +8,12 @@ function ContactPage() {
     return (
         <div>
             <div className="title">
-                <Title title={'About Me'} span={'About Me'} />
+                <Title title={'Contact Me'} span={'Contact Me'} />
             </div>
             <div className="ContactPage">
                 <div className="contact-sect">
                     <ContactItem icon={phone} text1={'+1 906-290-9364'} title={'Phone'}/>
-                    <ContactItem icon={email} text1={'loremipusum@hmail.com'} text2={'abcloremipsum@gmail.com'} title={'Email'}/>
+                    <ContactItem icon={email} text1={'ptrogg1992@gmail.com'} title={'Email'}/>
                 </div>
             </div>
         </div>
