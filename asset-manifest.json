@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.aaaa60a7.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.12b9cd65.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.12b9cd65.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.8d4c0c2e.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.8d4c0c2e.js.map",
+    "static/js/2.37a47eb4.chunk.js": "/reactportfolio/static/js/2.37a47eb4.chunk.js",
+    "static/js/2.37a47eb4.chunk.js.map": "/reactportfolio/static/js/2.37a47eb4.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "static/css/main.aaaa60a7.chunk.css.map": "/reactportfolio/static/css/main.aaaa60a7.chunk.css.map",
+    "static/js/2.37a47eb4.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.37a47eb4.chunk.js.LICENSE.txt",
+    "static/media/about.37c40882.png": "/reactportfolio/static/media/about.37c40882.png",
+    "static/media/avatar.12aa230e.png": "/reactportfolio/static/media/avatar.12aa230e.png",
+    "static/media/git.interview.ebeda126.png": "/reactportfolio/static/media/git.interview.ebeda126.png",
+    "static/media/passwordGenerator.cef3b8ab.png": "/reactportfolio/static/media/passwordGenerator.cef3b8ab.png",
+    "static/media/tech.it.df41bd76.png": "/reactportfolio/static/media/tech.it.df41bd76.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d4c0c2e.js",
+    "static/js/2.37a47eb4.chunk.js",
+    "static/css/main.aaaa60a7.chunk.css",
+    "static/js/main.12b9cd65.chunk.js"
+  ]
+}
